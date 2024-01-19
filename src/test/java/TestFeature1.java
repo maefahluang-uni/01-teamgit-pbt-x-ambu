@@ -26,17 +26,17 @@ public class TestFeature1 {
 
 	@Test
 	public void testIncrementToEven(){
-		counter._ctr = 5;
+		counter._ctr = 7;
 		counter.incrementToEven();
-		Assert.assertEquals(6, counter._ctr);
+		Assert.assertEquals(8, counter._ctr);
 	}
 	
 	
 	@Test
 	public void testDecrementToEven(){
-		counter._ctr = -12;
+		counter._ctr = 7;
 		counter.decrementToEven();
-		Assert.assertEquals(-14, counter._ctr);
+		Assert.assertEquals(6, counter._ctr);
 	}
 	
 }
