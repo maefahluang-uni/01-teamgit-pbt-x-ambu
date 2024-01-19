@@ -6,10 +6,11 @@ import java.util.StringTokenizer;
 public class Counter {
 	public int _ctr;
 	public int _multiplier;
-
+ 
 	// method increments _ctr
 	public void increment() {
-		_ctr--; // faulty increment
+
+		_ctr++; // faulty increment
 	}
 
 	// method decrements _ctr
